@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+    <h1>Stephania Alexis </h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="work">Work</a>
+        <a href="contact">Contact me</a>
+        <a href="#">Resume</a>
+    </nav>
+</header>
+    <section>
+        <div>
+            <h2>Welcome To My portfolio</h2>
+        </div>
+    </section>
+    <main>
+        <section id="about_me" class="details_div">
+            <h2>about me</h2>
+    
+        </section>
+        <section id="my_work" class="details_div">
+            <h2>Work</h2>
+        </section>
+        <section id="my_contact" class="details_div">
+            <h2>Contact Me</h2>
+        </section>
+    </main>
+    
+    
+    
+    <style>
+        .load_portfolio_button {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+    
+        .hidable_div {
+            background-color: lightgrey;
+            width: 300px;
+            height: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+    
+        .details_div {
+            background-color: lightgrey;
+            width: 300px;
+            height: 500px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+    
+        
+    
+    </style>
+    
+    
+    <script>
+        function loadPortfolio() {
+            console.log("loading portfilio...");
+            document.getElementById('portfolio').style.visibility = 'visible';
+    
+        }
+    
+        function onLoad() {
+            console.log("loading page...");
+            document.getElementById('portfolio').style.visibility = 'hidden';
+        }
+    
+        window.onload = function() {
+            onLoad();
+        };
+    </script>
+    
+
+</body>
+</html>
