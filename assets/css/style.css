@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.load_portfolio_button {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.hidable_div {
+    background-color: lightgrey;
+    width: 300px;
+    height: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.details_div {
+    background-color: lightgrey;
+    width: 300px;
+    height: 500px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
