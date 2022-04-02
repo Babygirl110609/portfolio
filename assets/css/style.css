@@ -21,8 +21,29 @@
 
 .details_div {
     background-color: lightgrey;
-    width: 300px;
+    width: 600px;
     height: 500px;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
+}
+
+.outer_div{
+    /* background-color: rgb(238, 24, 24); */
+    background-image: url('../images/background_image.jpeg');
+}
+
+#left_div {
+    float:left; 
+    width:200px;
+}
+
+#right_div{
+    float:right;
+    width:200px;
+}
+
+.text {
+    /* background-color: white; */
+    color: white;
+  }
