@@ -18,11 +18,11 @@
     padding: 50px;
     margin: 20px;
 }
-
+#
 .details_div {
     background-color: lightgrey;
-    width: 600px;
-    height: 500px;
+    width: 100%;
+    height: 600px;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
@@ -31,19 +31,92 @@
 .outer_div{
     /* background-color: rgb(238, 24, 24); */
     background-image: url('../images/background_image.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
-#left_div {
+
+#phone {
     float:left; 
-    width:200px;
+    width:400px;
 }
 
-#right_div{
-    float:right;
-    width:200px;
+#email {
+    float: left;
+    width:400px;
+}
+
+#github {
+    float:left;
+    width:400px;
 }
 
 .text {
     /* background-color: white; */
     color: white;
-  }
+}
+
+.flex-item {
+    background-image: url("../images/surf.png");
+    /* background-color: rgb(153, 88, 51); */
+    /* border: 5px solid red; */
+}
+
+.background {
+    background-color: aquamarine;
+    padding: 10px; 
+}
+
+.background1 {
+    background-image: url("../images/horiseon-project.png");
+    height: 170px;
+    margin-bottom: 10px; 
+    background-size: 100% auto; 
+}
+
+.background2 {
+    background-image: url("../images/surf.png");
+    /* background-size */
+    height: 200px;
+}
+
+.background3 {
+    background-image: url("../images/LED-WALL.png");
+}
+
+.background4 {
+    background-image: url("../images/puzzle.png");
+}
+
+.background5 {
+    background-image: url("../images/data.jpg");
+}
+
+
+
+.left {
+    float: left;
+    width: 49%;
+    height: 150px;
+    margin-right: 10px;
+
+}
+
+.right {
+    float: right;
+    width:49%; 
+    height: 150px;
+
+}
+
+.row2 {
+    padding-bottom: 10px;
+    height: 170px; 
+    /* border: 5px solid red; */
+}
+
+.background6 {
+    margin-top: 200px;
+    height: 170px;
+    background-color: blueviolet;
+}
