@@ -75,13 +75,15 @@
 }
 
 .background2 {
-    background-image: url("../images/surf.png");
-    /* background-size */
-    height: 200px;
+    background-image: url("../images/A-Tasty-Creation.png");
+    height: 170px;
+    margin-bottom: 10px; 
+    background-size: 100% auto; 
+   
 }
 
 .background3 {
-    background-image: url("../images/LED-WALL.png");
+    background-image: url("../images/food-festival.png");
 }
 
 .background4 {
@@ -90,6 +92,13 @@
 
 .background5 {
     background-image: url("../images/data.jpg");
+}
+
+.background6 {
+    background-image: url("../images/cineview.png");
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: 300%;
 }
 
 
@@ -115,7 +124,7 @@
     /* border: 5px solid red; */
 }
 
-.background6 {
+.background7 {
     margin-top: 200px;
     height: 170px;
     background-color: blueviolet;
